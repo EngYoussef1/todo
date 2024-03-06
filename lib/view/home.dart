@@ -11,7 +11,14 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text(
+          'TO DO APP ',
+          style: TextStyle(fontSize: 30),
+        ),
+        iconTheme: IconThemeData(size: 40, color: Colors.white),
+        centerTitle: true,
+      ),
       drawer: Drawer(),
       body: Container(),
     );
