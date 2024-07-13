@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "F:/flutter project/to do app/todo/linux"
+    "cmake.sourceDirectory": "F:/flutter project/to do app/todo/windows/runner",
+    "cSpell.words": [
+        "difaulttextformfield"
+    ]
 }
